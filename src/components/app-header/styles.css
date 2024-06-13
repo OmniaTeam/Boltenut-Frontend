@@ -1,0 +1,10 @@
+.app-header {
+    background-color: #FFFFFF;
+    padding: 24px 40px;
+}
+
+.app-header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

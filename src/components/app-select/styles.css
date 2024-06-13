@@ -1,22 +1,26 @@
-.app-input {
+.app-select {
     display: flex;
     flex-direction: column;
     gap: 8px;
     width: 242px;
-    & .app-input__label {
+
+    & .app-select__label {
         font-weight: 600;
         font-size: 14px;
         letter-spacing: -.01em;
         line-height: 16px;
-        color: #8a96a6
+        color: #8a96a6;
     }
-    & .app-input__input {
+
+    & .app-select__select {
         padding: 8px;
         border-radius: 4px;
         font-size: 16px;
         color: #1e2248;
+        background-color: #FFFFFF;
         border: 1px solid #DEE2E6;
         transition: 200ms ease;
+
         &:hover {
             box-shadow: 0 0 5px 2px #DEE2E6;
         }

@@ -1,10 +1,40 @@
 .application {
     max-width: calc(100% - 80px);
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .app-inputs {
     display: flex;
-    align-items: center;
-    gap: 24px;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 24px;
+}
+
+.formule {
+    background-color: #DDD;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.formule__title {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -.01em;
+    line-height: 16px;
+    color: #8a96a6;
+}
+
+svg.app-scheme {
+    width: 100%;
+    height: 300px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    border: 1px solid #DEE2E6;
 }

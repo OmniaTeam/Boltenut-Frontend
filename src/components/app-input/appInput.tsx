@@ -1,10 +1,11 @@
+import { ChangeEvent } from 'react';
 import './styles.css'
 
 interface AppInputProps {
     inputLabel: string;
     inputType: string;
     inputPlaceholder: string;
-    inputChangeHandler: () => void
+    inputChangeHandler: (e : ChangeEvent<HTMLInputElement>) => void
 }
 
 export const AppInput = (props: AppInputProps) => {
