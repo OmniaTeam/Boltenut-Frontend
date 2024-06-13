@@ -1,5 +1,14 @@
+import { AppHeader, AppInput } from "./components";
+
 export default function App() {
-	return <>
-		<h1>Hello</h1>
-	</>
+	return <div className="application">
+		<AppHeader />
+		<div className="app-inputs">
+			<AppInput inputLabel={""} inputType={""} inputPlaceholder={""} inputChangeHandler={() => {}}/>
+			<AppInput inputLabel={""} inputType={""} inputPlaceholder={""} inputChangeHandler={() => {}}/>
+			<AppInput inputLabel={""} inputType={""} inputPlaceholder={""} inputChangeHandler={() => {}}/>
+			<AppInput inputLabel={""} inputType={""} inputPlaceholder={""} inputChangeHandler={() => {}}/>
+		</div>
+		<div className="app-scheme"></div>
+	</div>
 }

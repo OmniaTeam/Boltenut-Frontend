@@ -1,0 +1,10 @@
+.application {
+    max-width: calc(100% - 80px);
+    margin: 0 auto;
+}
+
+.app-inputs {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
