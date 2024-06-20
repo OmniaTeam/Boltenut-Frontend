@@ -30,11 +30,22 @@
     color: #8a96a6;
 }
 
-svg.app-scheme {
-    width: 100%;
-    height: 300px;
-    background-color: #f7f7f7;
-    border-radius: 4px;
-    transition: transform 0.3s ease;
-    border: 1px solid #DEE2E6;
+.server-response {
+    background-color: #FFFFFF;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.response-content {
+    margin-top: 12px;
+    border-top: 1px solid #ccc;
+    padding-top: 12px;
+}
+
+.response-content p {
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
 }
